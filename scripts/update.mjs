@@ -58,6 +58,7 @@ async function updater() {
     if (/.sig$/.test(asset.name)) {
       sig = await getSignature(asset.browser_download_url);
     }
+    console.log(asset.name);
     platforms.forEach((platform) => {
       if (reg.test(asset.name)) {
         // 设置平台签名，检测应用更新需要验证签名
@@ -66,6 +67,7 @@ async function updater() {
           return;
         }
         // 设置下载链接
+        console.log(asset.browser_download_url,asset.name);
         updateData.platforms[platform].url = asset.browser_download_url;
       }
     });
