@@ -36,7 +36,6 @@ import Greet from "./components/Greet.vue";
         >rust-analyzer</a
       >
     </p>
-    <p>liboq</p>
 
     <Greet />
   </div>

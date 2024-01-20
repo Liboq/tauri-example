@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "tauri-app",
-    "version": "0.0.2"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -21,7 +21,7 @@
       "active": true,
       "dialog": true,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDU3RjE4OEY3QTc0OTQzQjgKUldTNFEwbW45NGp4VjhMRk01amdlam1uR01aOFlyZ3Q0SHA2U09ETDZWUUdiZ0FQYThLWWh5b0QK",
-      "endpoints": ["https://liboq.github.io/usopp/install.json"],
+      "endpoints": ["https://liboqiao.top/assets/install.json"],
       "windows": {
         "installMode": "passive",
         "installerArgs": []
