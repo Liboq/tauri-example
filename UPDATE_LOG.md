@@ -19,3 +19,7 @@ test1
 ## v0.0.5
 
 删除 liboq
+
+## v0.0.6
+
+github
