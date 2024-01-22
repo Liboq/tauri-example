@@ -58,3 +58,9 @@ node 18
 update tauri-actionv0.4
 node 18
 pnpm
+
+## v0.0.15
+
+update tauri-actionv0.3
+node 18
+pnpm
