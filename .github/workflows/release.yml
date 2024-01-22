@@ -8,6 +8,29 @@ on:
     workflow_dispatch:
  
 jobs:
+    create-release:
+      runs-on: ubuntu-latest
+      outputs:
+        RELEASE_UPLOAD_ID: ${{ steps.create_release.outputs.id }}
+
+      steps:
+        - uses: actions/checkout@v2
+        - name: Query version number
+          id: get_version
+          shell: bash
+          run: |
+            echo "using version tag ${GITHUB_REF:10}"
+            echo ::set-output name=version::"${GITHUB_REF:10}"
+
+        - name: Create Release
+          id: create_release
+          uses: actions/create-release@v1
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            tag_name: "${{ steps.get_version.outputs.VERSION }}"
+            release_name: "tauri-app ${{ steps.get_version.outputs.VERSION }}"
+            body: "See the assets to download this version and install."
     release:
         permissions:
             contents: write
@@ -77,11 +100,7 @@ jobs:
                   TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
                   TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
               with:
-                  tagName: ${{ github.ref_name }} # This only works if your workflow triggers on new tags.
-                  releaseName: 'App Name v__VERSION__' # 自定义 release 名称，__VERSION__ 将自动填写为版本信息
-                  releaseBody: 'See the assets to download and install this version.'
-                  releaseDraft: true
-                  prerelease: false            
+                releaseId: ${{ needs.create-release.outputs.RELEASE_UPLOAD_ID }}
          # 生成静态资源并将其推送到 github pages
     updater:
       runs-on: ubuntu-latest
