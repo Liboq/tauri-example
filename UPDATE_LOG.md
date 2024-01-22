@@ -79,3 +79,10 @@ node 18
 pnpm
 v
 
+## v0.0.18
+
+update tauri-actionv0.3
+node 18
+pnpm
+v
+msi.zip
