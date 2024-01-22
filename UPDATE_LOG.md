@@ -43,3 +43,7 @@ release fix tag
 ## v0.0.11
 
 update tauri-actionv0.4
+
+## v0.0.12
+
+update tauri-actionv0.4
