@@ -57,7 +57,7 @@ async function updater() {
     let sig = "";
     if (/.sig$/.test(asset.name)) {
       sig = await getSignature(asset.browser_download_url);
-      getSignatureTest(asset.name)
+      getSignatureTest(asset.browser_download_url)
     }
     platforms.forEach((platform) => {
       console.log(asset.name, platform, reg.test(asset.name));
