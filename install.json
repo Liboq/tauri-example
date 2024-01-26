@@ -1,0 +1,35 @@
+{
+  "version": "v0.0.20",
+  "notes": "browser_download_url",
+  "pub_date": "2024-01-26T02:24:08.866Z",
+  "platforms": {
+    "win64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4VjJmUTJHc2x5YlVKOTJ4TWhhWTRFb011SDNYY05LU0tDVTZyRnQ2REFSWFlKNmFSdmhyVEFESDAydVRVdDN2dmZyQWlpUm5pRmFDbmlMd2lTbTE5UFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1ODIwCWZpbGU6dGF1cmktYXBwXzAuMC40X3g2NF9lbi1VUy5tc2kuemlwCisrM2o3MUtuZ1VhTzFSWWJPWE1UemkwQWhTaThHSWpYTCsvOFk2cmQvS04yWUtBclRQeU1CSVQ1TjBodGlVU2JXMkVZQ3NPTHZJNm9SOGdTOWkxRENnPT0K",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app_0.0.4_x64_en-US.msi.zip"
+    },
+    "linux": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4Vi94eVkrTzhrdDZEY04vd2Y0c2p0MUJGWEw4OXcyV2h1cXV1R0VFUERiUUd3UlF1cjVDVkRmUVNHNFBSOTZzaTBCU1plQUl6STJpY2xPMklJUzJiTmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1NjI3CWZpbGU6dGF1cmktYXBwXzAuMC40X2FtZDY0LkFwcEltYWdlLnRhci5negprejNVWCtoOUxHR2pzZUlETVdYb0oyNU8raEFRQW1xdXFLY3l1Slg1QnliT0Z5TlgyUGJraURuRHFuMGIwOVhCWlB0QjhZUVBNMXErbmcrUjcvUUpDZz09Cg==",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app_0.0.4_amd64.AppImage.tar.gz"
+    },
+    "darwin": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4VjVDRmUzd0lxYTJVdXo0bmpPaEJvaExOMGRGb01VbkxRckxRR3dhb1VuVFcwTSs5QzR0cTl4TVhMYUxBQ204ZWkweDRpdW1vaHd1czVoTGlwemNnb2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1NjU3CWZpbGU6dGF1cmktYXBwLmFwcC50YXIuZ3oKbkYxVms2NllZbm5idkc5VTNtOE9HV0hsMDhsNnpoNjcwandUZ0MrV3VROHBua3VHYm5BZWpodGs4WENSTXJnUkdtOEp4Ny9iVzNkZmtLODgrVGFDQmc9PQo=",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4VjVDRmUzd0lxYTJVdXo0bmpPaEJvaExOMGRGb01VbkxRckxRR3dhb1VuVFcwTSs5QzR0cTl4TVhMYUxBQ204ZWkweDRpdW1vaHd1czVoTGlwemNnb2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1NjU3CWZpbGU6dGF1cmktYXBwLmFwcC50YXIuZ3oKbkYxVms2NllZbm5idkc5VTNtOE9HV0hsMDhsNnpoNjcwandUZ0MrV3VROHBua3VHYm5BZWpodGs4WENSTXJnUkdtOEp4Ny9iVzNkZmtLODgrVGFDQmc9PQo=",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4VjVDRmUzd0lxYTJVdXo0bmpPaEJvaExOMGRGb01VbkxRckxRR3dhb1VuVFcwTSs5QzR0cTl4TVhMYUxBQ204ZWkweDRpdW1vaHd1czVoTGlwemNnb2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1NjU3CWZpbGU6dGF1cmktYXBwLmFwcC50YXIuZ3oKbkYxVms2NllZbm5idkc5VTNtOE9HV0hsMDhsNnpoNjcwandUZ0MrV3VROHBua3VHYm5BZWpodGs4WENSTXJnUkdtOEp4Ny9iVzNkZmtLODgrVGFDQmc9PQo=",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app.app.tar.gz"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4Vi94eVkrTzhrdDZEY04vd2Y0c2p0MUJGWEw4OXcyV2h1cXV1R0VFUERiUUd3UlF1cjVDVkRmUVNHNFBSOTZzaTBCU1plQUl6STJpY2xPMklJUzJiTmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1NjI3CWZpbGU6dGF1cmktYXBwXzAuMC40X2FtZDY0LkFwcEltYWdlLnRhci5negprejNVWCtoOUxHR2pzZUlETVdYb0oyNU8raEFRQW1xdXFLY3l1Slg1QnliT0Z5TlgyUGJraURuRHFuMGIwOVhCWlB0QjhZUVBNMXErbmcrUjcvUUpDZz09Cg==",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app_0.0.4_amd64.AppImage.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTNFEwbW45NGp4VjJmUTJHc2x5YlVKOTJ4TWhhWTRFb011SDNYY05LU0tDVTZyRnQ2REFSWFlKNmFSdmhyVEFESDAydVRVdDN2dmZyQWlpUm5pRmFDbmlMd2lTbTE5UFF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzA2MjM1ODIwCWZpbGU6dGF1cmktYXBwXzAuMC40X3g2NF9lbi1VUy5tc2kuemlwCisrM2o3MUtuZ1VhTzFSWWJPWE1UemkwQWhTaThHSWpYTCsvOFk2cmQvS04yWUtBclRQeU1CSVQ1TjBodGlVU2JXMkVZQ3NPTHZJNm9SOGdTOWkxRENnPT0K",
+      "url": "https://github.com/Liboq/tauri-example/releases/download/v0.0.20/tauri-app_0.0.4_x64_en-US.msi.zip"
+    }
+  }
+}
