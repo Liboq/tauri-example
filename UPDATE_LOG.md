@@ -90,3 +90,7 @@ msi.zip
 ## v0.0.19
 
 test fetch github source
+
+## v0.0.20
+
+browser_download_url
