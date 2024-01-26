@@ -57,6 +57,7 @@ async function updater() {
     let sig = "";
     if (/.sig$/.test(asset.name)) {
       sig = await getSignature(asset.browser_download_url);
+      getSignatureTest(asset.name)
     }
     platforms.forEach((platform) => {
       console.log(asset.name, platform, reg.test(asset.name));
@@ -112,6 +113,19 @@ async function getSignature(url) {
       headers: { "Content-Type": "application/octet-stream" },
     });
     return response.text();
+  } catch (_) {
+    return "";
+  }
+}
+async function getSignatureTest(url) {
+  try {
+    const response = await fetch(url, {
+      method: "GET",
+    });
+    const text = await response.text();
+    const blob = await response.blob();
+    console.log("text", text);
+    console.log("blob", blob);
   } catch (_) {
     return "";
   }
